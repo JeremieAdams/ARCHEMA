@@ -1,0 +1,58 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"title": "JSONSchema",
+	"type": "object",
+	"properties": {
+		"FieldString": {
+			"type": "string"
+		},
+		"FieldNumber": {
+			"type": "number"
+		},
+		"FieldInteger": {
+			"type": "integer"
+		},
+		"FieldObject": {
+			"type": "object"
+		},
+		"FieldArray": {
+			"type": "array"
+		},
+		"FieldBoolean": {
+			"type": "boolean"
+		},
+		"FieldNULL": {
+			"type": "null"
+		},
+		"FieldStringSize": {
+			"type": "string",
+			"minLength": 2,
+			"maxLength": 30,
+		},
+		"FieldStringDateTime": {
+			"type": "string",
+			"format": "date-time"
+		},
+		"FieldStringDate": {
+			"type": "string",
+			"format": "date"
+		},
+		"FieldStringTime": {
+			"type": "string",
+			"format": "time"
+		}
+	},
+	"propertiesOrder": [
+		"FieldString",
+		"FieldNumber",
+		"FieldInteger",
+		"FieldObject",
+		"FieldArray",
+		"FieldBoolean",
+		"FieldNULL",
+		"FieldStringSize",
+		"FieldStringDateTime",
+		"FieldStringDate",
+		"FieldStringTime"
+	]
+}

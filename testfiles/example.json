@@ -1,0 +1,21 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"title": "JSONSchema",
+	"type": "object",
+	"properties": {
+		"FieldString": {
+			"type": "string"
+		},
+		"FieldNumber": {
+			"type": "number"
+		},
+		"FieldInteger": {
+			"type": "integer"
+		}
+	},
+	"propertiesOrder": [
+		"FieldString",
+		"FieldNumber",
+		"FieldInteger"
+	]
+}
